@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
 
-# write a python script to manage discourse via api calls.
-# It should generate a list of users, and then for each user:
-# 1. check if the user exists
-# 2. if not, create the user
-# 3. if so, update the user
-# 4. add the user to a group
-# The script should read the apikey from a file, and the list of users from a file.
-# The script should be able to be run multiple times without creating duplicate users.
-
 import requests
 import json
 import os
